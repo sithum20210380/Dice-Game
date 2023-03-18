@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CW-w1867464</string>
+    <string name="player_score">Player Score: 0</string>
+    <string name="computer_score">Computer Score: 0</string>
+    <string name="winner">Winner</string>
+    <string name="about_button">About</string>
+    <string name="roll_button">roll</string>
+    <string name="new_game_button">New Game</string>
+    <string name="player_score1">Player Score</string>
+    <string name="computer_score1">Computer score</string>
+    <string name="winner1">Let\'s see who is the winner!</string>
+    <string name="reroll_botton">Reset</string>
+    <string name="ScoreCounter">Wins</string>
+</resources>
