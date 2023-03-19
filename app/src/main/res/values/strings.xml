@@ -6,9 +6,9 @@
     <string name="about_button">About</string>
     <string name="roll_button">roll</string>
     <string name="new_game_button">New Game</string>
-    <string name="player_score1">Player Score</string>
-    <string name="computer_score1">Computer score</string>
+    <string name="player_score1">Player: 0</string>
+    <string name="computer_score1">Computer: 0</string>
     <string name="winner1">Let\'s see who is the winner!</string>
-    <string name="reroll_botton">Reset</string>
+    <string name="instruction_botton">Instructions</string>
     <string name="ScoreCounter">Wins</string>
 </resources>

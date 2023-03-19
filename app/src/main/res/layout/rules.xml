@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="410dp"
+    android:layout_height="730dp"
+    android:background="@drawable/rule_bg1"
+    android:paddingTop="15dp"
+
+    >
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  The Rules Of The Game  "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 1) Both players throw 5 dice at the    same time"
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 2) The score of each throw for   each player is the sum of the numbers shown on the faces of the
+dice"
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 3) The objective of the game is to reach a score of 101 or more (Human Player can set the target)"
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 4) Throwing 5 dice as many times as necessary to reach the targer"
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 5) After a roll, each player may either score it or take up to two optional rerolls."
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 6) For each reroll,
+they may reroll all of the dice or select any of the dice to keep and only reroll the remainder"
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 7) A player may score at any time, thus ending their current throw"
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 8)  If both players reach 101 or more the player with the highest score wins"
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text=" 9)  The 2 players keep rolling until
+the tie is broken - no rerolls in this case"
+        android:textSize="19dp"
+        android:textColor="#F44336"
+        android:paddingBottom="25dp"
+        />
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text="Agree"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
