@@ -2,6 +2,7 @@ package com.example.cw_w1867464
 
 import android.annotation.SuppressLint
 import android.app.Dialog
+import android.content.res.Configuration
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
@@ -193,7 +194,22 @@ class ThirdActivity : AppCompatActivity() {
                 // Disable throw button to prevent additional rolls during computer's turn
                 scoreButton.isEnabled = false
             }
+            // Reset the throw counter
+            throwCounter = 0
+            throwButton.text = "Reroll ($throwCounter/3)"
         }
+    }
+
+
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        // Save any necessary data here
+    }
+
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        // Handle orientation change here if needed
     }
 
     // function that olls five dice an returns the sum of their face values
@@ -281,4 +297,3 @@ class ThirdActivity : AppCompatActivity() {
         }
     }
 }
-

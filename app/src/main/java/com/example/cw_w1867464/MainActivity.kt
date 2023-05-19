@@ -1,7 +1,10 @@
+
+// video link : https://drive.google.com/file/d/1v4z_UqWJ_NlE2oHuw1lpmNQd0SRkUk0W/view?usp=share_link
 package com.example.cw_w1867464
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -37,6 +40,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,ThirdActivity::class.java)
             startActivity(intent)
         }
-}
+    }
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        // Save any necessary data here
+    }
+
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        // Handle orientation change here if needed
+    }
 }
 
